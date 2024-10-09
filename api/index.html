@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de Veículos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciador de Veículos</h1>
+    
+    <div class="form-container">
+      <h2>Adicionar Veículo</h2>
+      <input type="text" id="modelo" placeholder="Modelo" />
+      <input type="number" id="ano" placeholder="Ano" />
+      <input type="number" id="preco" placeholder="Preço" />
+      <button id="add-veiculo">Adicionar</button>
+    </div>
+
+    <h2>Veículos Adicionados</h2>
+    <ul id="lista-veiculos"></ul>
+
+    <h2>Atualizar Veículo</h2>
+    <input type="hidden" id="update-id" />
+    <input type="text" id="update-modelo" placeholder="Modelo" />
+    <input type="number" id="update-ano" placeholder="Ano" />
+    <input type="number" id="update-preco" placeholder="Preço" />
+    <button id="update-veiculo">Atualizar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
